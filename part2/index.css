@@ -1,8 +1,166 @@
 /* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
 body {
+  color: white;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   background-color: #e6ecf0;
 }
 
 /* TODO: Create CSS for your Twitter Mockup */
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #E6ECF0;
+}
+.navbar{
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  background-color: white;
+}
+.navbar-inner{
+  width: 1190px;
+  height: 60px;
+  margin: 0px auto 0px auto;
+  overflow: hidden;
+  background-color: white;
+}
+.mainbody{
+  width: 1190px;
+  height: auto;
+  margin: 2% auto 10px auto;
+  overflow: hidden;
+  background-color: white;
+}
+.col1{
+  width: 30%;
+  float: left;
+  height: 200px;
+  background-color: white;
+}
+.col2{
+  width: 30%;
+  margin-right:2%;
+  float: right;
+  height: 200px;
+  background-color: white;
+}
+.col3{
+  width: 38%;
+  float: left;
+  height: 300px;
+  background-color: white;
+}
+.navbar-col1{
+  width: 35%;
+  float: left;
+  height: 100%;
+  background-color: white;
+}
+.navbar-col2{
+  width: 35%;
+  margin-left:2%;
+  float: right;
+  height: 100%;
+  background-color: white;
+}
+.navbar-col3{
+  width: 26%;
+  float: right;
+  height: 100%;
+  background-color: white;
+}
+.navbar-button{
+  width: 22%;
+  margin-right: 1%;
+  float: left;
+  height: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  background-color: white;
+}
+.profile-navbar-col3{
+  width: 25%;
+  margin-left:2%;
+  float: right;
+  height: 100%;
+  background-color: white;
+}
+.logo{
+  margin: 0 auto 0 auto;
+  width: 60px;
+  height: 60px;
+  float: left;
+  background-color:white;
+  background-image: url(images/twitter-logo.png);
+}
+.tweet-button{
+  margin: 3px;
+  background:#4AB3F4;
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 30px
+  margin-top:10%;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 80px;
+}
+.followers-box{
+  height: 220px;
+  background-color: white;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
+.followers-box-banner{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60%;
+  background-color: white;
+  width: 342px;
+  height: 90px;
+  background-image: url(images/penguin-banner.png);
+}
+.followers-box-user-info-wrapper{
+  height: 55%;
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  right:0px;
+  z-index: 1000!important;
+  background-color: white;
+}
+.followers-box-toolbar{
+  height: 50%;
+  display: block;
+  background-color: white;
+  width: auto;
+
+}
+.followers-box-user-icon-wrapper{
+  height: 50%;
+  display: block;
+  background-color: white;
+  width: auto;
+
+
+}
+.followers-box-user-icon{
+  height: 60px;
+  width: 60px;
+  float: left;
+  background-color: white;
+  border-radius: 35px;
+  background-image: url(images/penguin.png);
+}
