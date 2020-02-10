@@ -1,0 +1,19 @@
+body {
+  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #e6ecf0;
+}
+
+/* TODO: Create CSS for your Twitter Mockup */
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #E6ECF0;
+}
